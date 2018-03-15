@@ -16,11 +16,12 @@ def long_planeteer_calls(calls)
 
   if call_length
     return true
-
   end
 end
 
-def find_the_cheese
-  # .include
-  # cheese_types = ["cheddar", "gouda", "camembert"]
+def find_the_cheese(cheese_arr)
+  cheese_arr.include?("cheddar", "gouda", "camembert")
+
+  if cheese_arr.include? == true
+    return cheese_arr
 end
