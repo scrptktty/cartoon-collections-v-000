@@ -14,7 +14,7 @@ end
 def long_planeteer_calls(calls)
   call_length = calls.collect { |y| y.length }
 
-  if call_length.any?{ |i| i > 4}
+  if call_length.any?(call_length > 4)
     return true
   end
 
