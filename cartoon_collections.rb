@@ -35,6 +35,6 @@ def find_the_cheese(food)
   cheese_arr = ["cheddar", "gouda", "camembert"]
 
   if cheese_arr.include?(food)
-    puts food
   end
+  food
 end
