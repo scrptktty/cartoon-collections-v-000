@@ -14,12 +14,10 @@ end
 def long_planeteer_calls(calls)
   call_length = calls.collect { |y| y.length > 4 }
 
-  binding.pry
+  if call_length
+    return true
 
-  # if call_length == true
-  #   return true
-  #
-  # end
+  end
 end
 
 def find_the_cheese
