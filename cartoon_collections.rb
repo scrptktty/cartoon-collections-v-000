@@ -16,7 +16,7 @@ def long_planeteer_calls(calls)
 
   if call_length.any?
     return true
-
+  end
 
 end
 
