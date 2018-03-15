@@ -16,11 +16,9 @@ def long_planeteer_calls(calls)
 
   if call_length.any?
     return true
-  else
-    return false
+  # else
+  #   return false
   end
-
-
 end
 
 # def find_the_cheese(food)
