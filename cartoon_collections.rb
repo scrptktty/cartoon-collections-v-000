@@ -26,6 +26,6 @@ end
 def find_the_cheese(food)
   cheese_arr = ["cheddar", "gouda", "camembert"]
 
-  food.find { |x| x.include?(cheese_arr) }
+  (cheese_arr & food).first
 
 end
