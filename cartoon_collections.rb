@@ -12,13 +12,11 @@ def summon_captain_planet(planeteer)
 end
 
 def long_planeteer_calls(calls)
-  call_length = calls.collect { |y| (y.length > 4).any? }
+  call_length = calls.collect { |y| y.length > 4)}
 
-  if call_length == true
+  if call_length.any?
     return true
-  else
-    return false
-  end
+
 
 end
 
