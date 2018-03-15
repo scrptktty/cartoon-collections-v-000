@@ -33,7 +33,9 @@ end
 
 def find_the_cheese(food)
   cheese_arr = ["cheddar", "gouda", "camembert"]
-
+  
+  binding.pry
+  
   if cheese_arr.include?(food)
     food
   end
