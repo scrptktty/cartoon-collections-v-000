@@ -23,10 +23,9 @@ def long_planeteer_calls(calls)
 
 end
 
-# def find_the_cheese(food)
-#   cheese_arr = ["cheddar", "gouda", "camembert"]
-#
-#   if food.any?(cheese_arr)
-#     return
-#
-# end
+def find_the_cheese(food)
+  cheese_arr = ["cheddar", "gouda", "camembert"]
+  
+  food.collect { |foods| foods.include?(cheese_arr.join) }
+  
+end
