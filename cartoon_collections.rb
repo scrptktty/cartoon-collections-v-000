@@ -36,6 +36,5 @@ def find_the_cheese(food)
 
   if cheese_arr.include?(food)
     return true
-  
-
+  end  
 end
