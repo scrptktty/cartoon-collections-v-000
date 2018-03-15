@@ -1,19 +1,19 @@
 def roll_call_dwarves(name)
   name.each_with_index do |dwarf, index|
     number = index + 1
-    puts "#{number} #{name}" 
+    puts "#{number} #{name}"
   end
 end
 
 def summon_captain_planet(planeteer)
-  .map
+  # .map
 end
 
 def long_planeteer_calls
-  .true?
+  # .true?
 end
 
 def find_the_cheese
-  .include
-  cheese_types = ["cheddar", "gouda", "camembert"]
+  # .include
+  # cheese_types = ["cheddar", "gouda", "camembert"]
 end
