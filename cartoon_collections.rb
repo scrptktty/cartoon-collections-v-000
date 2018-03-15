@@ -27,5 +27,5 @@ def find_the_cheese(food)
   cheese_arr = ["cheddar", "gouda", "camembert"]
 
   (cheese_arr & food).first
-
+  binding.pry
 end
