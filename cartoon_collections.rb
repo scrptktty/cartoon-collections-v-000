@@ -9,8 +9,15 @@ def summon_captain_planet(planeteer)
   planeteer.collect { |x| x.capitalize + "!"}
 end
 
-def long_planeteer_calls
-  # .true?
+def long_planeteer_calls(calls)
+  call_length = calls.collect { |y| y.length > 4 }
+
+  if call_length == false
+    false
+
+  else
+    true
+  end
 end
 
 def find_the_cheese
