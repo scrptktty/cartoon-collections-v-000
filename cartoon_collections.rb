@@ -34,7 +34,7 @@ end
 def find_the_cheese(food)
   cheese_arr = ["cheddar", "gouda", "camembert"]
   
-  binding.pry
+  # binding.pry
   
   food.find { |flibble| cheese_arr.include?(flibble) }
 
