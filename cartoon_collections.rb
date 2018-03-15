@@ -16,16 +16,17 @@ def long_planeteer_calls(calls)
 
   if call_length.any?
     return true
-  else 
+  else
     return false
   end
-  
+
 
 end
 
 def find_the_cheese(food)
   cheese_arr = ["cheddar", "gouda", "camembert"]
-  
+  cheese_arr.join(" ")
+
   food.collect { |foods| foods.include?(cheese_arr.join) }
-  
+
 end
