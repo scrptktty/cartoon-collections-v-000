@@ -24,4 +24,5 @@ def find_the_cheese(cheese_arr)
 
   if cheese_arr.include? == true
     return cheese_arr
+  end
 end
