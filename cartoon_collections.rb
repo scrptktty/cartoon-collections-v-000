@@ -36,7 +36,6 @@ def find_the_cheese(food)
   
   binding.pry
   
-  if cheese_arr.include?(food)
-    food
+  food.find { |foods| cheese_arr.include?(food) }
   end
 end
